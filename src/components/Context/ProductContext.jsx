@@ -1,4 +1,4 @@
-// src/components/Context/ProductContext.jsx
+
 
 import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
@@ -122,7 +122,7 @@ export const ProductProvider = ({ children }) => {
       case 'PRICE: LOW TO HIGH':
         return a.price - b.price;
       default:
-        return 0; // 'RECOMMENDED' or default sorting
+        return 0; 
     }
   });
   
