@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import DiscoverProducts from './components/Text/DiscoverProducts'
 import ProductCard from './components/ProductCard/ProductCard'
 import Filter from './components/Filter/Filter'
-import Recommended from './components/Recommended/Recommended.jsX'
+import Recommended from './components/Recommended/Recommended'
 import { ProductContext } from './components/Context/ProductContext';
 import { useContext } from 'react';
 import Footer from './components/Footer/Footer'
