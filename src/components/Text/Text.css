@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 1440px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+
+  }
+.custom-text {
+    font-family: 'Simplon Norm', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .custom-paragraph {
+    width: 721px;
+    height: 80px;
+    margin: 0 auto; 
+    font-family: 'Simplon Norm', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: #333; 
+    opacity: 1; 
+  }
+    

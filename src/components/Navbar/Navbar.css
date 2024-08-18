@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 1440px; 
+    margin: 0 auto; 
+  }
+  
+  .top-bar {
+    width: 100%; 
+    max-width: 1440px; 
+    height: 32px;
+    background-color: #000000;
+    color: #EB4c6B;
+    display: flex;
+    padding: 8px 274px; 
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box; 
+  }
+
+  .top-bar-content {
+    width: 138px;
+    height: 16px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .top-bar-text {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.5px;
+  }
+  
+  
+  
+  .navbar {
+    width: 100%; 
+    max-width: 1440px; 
+    height: 188px;
+    margin-top: 32px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+  }
+  
+  .navbar-left {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 40px;
+    left:96px;
+  }
+  
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .navbar-center {
+    width: 107px;
+    height: 44px;
+    position:relative;
+    left: 667px;
+    top: 36px;
+  }
+  
+  .logo-text {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+  
+  
+  .navbar-right {
+    width: auto;
+    max-width: 244px;
+    height: 24px;
+    position: relative;
+    top: 46px;
+    left: 1000px;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .icon {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    text-decoration: none; 
+    color: black;
+    
+  }
+  
+  .icon:hover {
+    color: #007bff; 
+  }
+
+
+
+
+  .tabs{
+    width: 100%; 
+    max-width: 636px;
+    height: 24px;
+    position: relative;
+    top:120px;
+    left:140px;
+    gap:64px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: larger;
+  }
+
+  a{
+    text-decoration: none;
+    width: 52px;
+    height: 24px;
+  }
+
+  .top-tabs{
+    background-color: #fff;
+    color: #000000;
+  }
+
+
+  .nav-links {
+    list-style: none;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+  }
+ 
+
+@media (max-width: 375px) {
+    .navbar-right {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-text{
+      font-size: 20px;
+    }
+    .nav-links{
+      top:40px ;
+      flex-direction: row;
+    }
+}
+  
+  
